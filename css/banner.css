@@ -1,0 +1,10 @@
+span {display: block ; font-family: monospace;font-size: x-large;
+white-space: nowrap;border-right: 8px solid;
+width: 37ch;
+animation:typing 4s steps(37),
+blink .9s infinite step-end
+alternate;
+overflow: hidden;}
+
+@keyframes typing{ from {width: 0} ;}
+@keyframes blink {80 %{border-color:transparent;}
